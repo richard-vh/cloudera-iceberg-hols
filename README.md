@@ -14,7 +14,7 @@ This Hands On Lab explores some of the core features of Apache Iceberg using Clo
 * Clone the <REPOSITORY_NAME> GitHub repository
 
   ```bash
-  git clone https://github.com/richard-vh/iceberg-cdw-hol.git
+  git clone https://github.com/richard-vh/cloudera-iceberg-hols.git
   ```
 
 * Install Required Dependencies for MkDocs
