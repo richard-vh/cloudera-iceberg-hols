@@ -45,6 +45,7 @@ extra:
 nav:
     - Iceberg on Cloudera:
         - Module 1 Getting Started with Iceberg: 'README.md'
+        - Module 2 User Guide: 'user-guide.md'
 
 
 markdown_extensions:
