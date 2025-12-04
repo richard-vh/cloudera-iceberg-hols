@@ -1,4 +1,4 @@
-site_name: "Iceberg on Cloudera"
+site_name: "Iceberg on Cloudera Labs"
 site_author: Richard van Heerden
 copyright: 2025 Cloudera, Inc. All rights reserved.<br><a href="https://www.cloudera.com/legal/terms-and-conditions.html" target="_blank">Terms & Conditions | </a>  <a href="https://www.cloudera.com/legal/policies.html" target="_blank"> Privacy Policy and Data Policy</a>
 repo_url: https://github.com/richard-vh/iceberg-cdw-hol
@@ -44,10 +44,11 @@ extra:
 
 nav:
     - Getting Started with Iceberg on Cloudera:
-        - Hands On Lab1 - Introduction to Apache Iceberg on Cloudera Data Warehouse: 'README.md'
-        - Hands On Lab2 - Introduction to Apache Iceberg on Cloudera Data Hubs: 'user-guide.md'
-    - More Advanced Iceberg on Cloudera:
-        - Hands On Lab1 - Introduction to Apache Iceberg on Cloudera Data Warehouse: 'README.md'
+        - Hands On Lab1 - Introduction to Iceberg on Cloudera Data Warehouse: 'README.md'
+        - Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
+    - Advanced Iceberg on Cloudera:
+        - Hands On Lab1 - Advanced Iceberg on Cloudera Data Warehouse: 'README.md'
+        - Hands On Lab2 - Advanced Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
 
 markdown_extensions:
   - admonition
