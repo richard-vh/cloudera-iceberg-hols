@@ -44,7 +44,7 @@ extra:
 
 nav:
     - Iceberg on Cloudera:
-        - Module 1 Getting Started with Iceberg: 'Hands%20On%20Lab%201%20-%20Introduction%20to%20Apache%20Iceberg%20on%20Cloudera%20Data%20Warehouse.md'
+        - Module 1 Getting Started with Iceberg: 'section1.md'
 
 
 markdown_extensions:
