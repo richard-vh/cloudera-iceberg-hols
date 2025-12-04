@@ -45,7 +45,7 @@ extra:
 nav:
     - Getting Started with Iceberg on Cloudera:
         - Hands On Lab1 - Introduction to Iceberg on Cloudera Data Warehouse: 'Hands On Lab1 - Introduction to Iceberg on Cloudera Data Warehouse.md'
-        - Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
+        - Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs: 'Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs.md'
     - Advanced Iceberg on Cloudera:
         - Hands On Lab1 - Advanced Iceberg on Cloudera Data Warehouse: 'user-guide.md'
         - Hands On Lab2 - Advanced Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
