@@ -47,7 +47,7 @@ nav:
         - Hands On Lab1 - Introduction to Iceberg on Cloudera Data Warehouse: 'user-guide.md'
         - Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
     - Advanced Iceberg on Cloudera:
-        - Hands On Lab1 - Advanced Iceberg on Cloudera Data Warehouse: 'README.md'
+        - Hands On Lab1 - Advanced Iceberg on Cloudera Data Warehouse: 'user-guide.md'
         - Hands On Lab2 - Advanced Iceberg Spark on Cloudera Data Hubs: 'user-guide.md'
 
 markdown_extensions:
