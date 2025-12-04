@@ -20,7 +20,7 @@ This Hands On Lab explores some of the core features of Apache Iceberg using Clo
 * Install Required Dependencies for MkDocs
 
    ```bash
-   cd iceberg-cdw-hol/mkdocs
+   cd cloudera-iceberg-hols/mkdocs
    pip install -r requirements.txt
    ```
 
