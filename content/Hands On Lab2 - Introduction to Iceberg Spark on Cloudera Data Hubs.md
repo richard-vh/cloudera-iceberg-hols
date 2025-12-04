@@ -1,4 +1,4 @@
-# Section 1: Spark and Iceberg on Cloudera Data Engineering Data Hubs
+# Hands On Lab2 - Introduction to Iceberg Spark on Cloudera Data Hubs
 
 ![alt text](/content/assets/images/spark-iceberg-cldr.png)
 
