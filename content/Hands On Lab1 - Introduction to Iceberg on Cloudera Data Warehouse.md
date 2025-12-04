@@ -925,3 +925,5 @@ snap-1185275548636187694-1-f7f549e1-bd07-44da-b170-8973c2e6e3d6.avro
 **Manifest list file** (*-m0.avro) references manifest files that contain details of individual data files.
 
 These components work together to support partitioning, versioning, and time travel, allowing Iceberg to provide robust table management with features like schema evolution and data consistency.
+
+## :star: Well done - You've completed this section of the labs!
