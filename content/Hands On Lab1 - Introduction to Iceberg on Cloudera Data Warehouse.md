@@ -39,27 +39,27 @@ Login to the Lab environment using this link [Lab Environment](https://login.cdp
 
 `https://login.cdpworkshops.cloudera.com/auth/realms/field-marketing-emea/protocol/saml/clients/cdp-sso`
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/logon.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/logon.png)
 
 Enter your assigned username and the password provided. Click the **Sign In** button.
 
 This will open the Cloudera Control Plane. You can toggle between a simple and new UI using the toggle switch at the top of the screen depending on which view you prefer to use.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/toggle_new_ui.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/toggle_new_ui.png)
 
 ## Open Impala In Cloudera Data Warehouse Service
 
 In the Cloudera Control Place select the Data Warehouse tile.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/control_plane_cdw.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/control_plane_cdw.png)
 
 In the Data Warehouse Service locate the **Impala** Virtual Warehouse and click on the Hue button.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/cdw_hue_impala.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/cdw_hue_impala.png)
 
 This will open the Hue IDE for Impala and you're ready to proceed.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/cdw_impala.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/cdw_impala.png)
 
 ## 1. Creating Iceberg Tables
 
@@ -291,7 +291,7 @@ Merge-on-Read (MOR) is where, instead of rewriting large files for every modific
     ```
 ## 4. Schema and Partition Evolution
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/schema_partition_evolution.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/schema_partition_evolution.png)
 
 ### Schema Evolution in Iceberg
 
@@ -406,7 +406,7 @@ New data inserted after the partitioning change will adhere to the new scheme.
 
 ## 5. Time Travel and Rollbacks
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/timetravel_rollbacks.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/timetravel_rollbacks.png)
 
 ### Time Travel in Iceberg
 
@@ -541,7 +541,7 @@ Two primary methods exist for migrating existing tables (e.g. Parquet) to Iceber
 
 In-place migration from Parquet to Iceberg allows seamless conversion without moving data or creating a new table and is almost instantaneous as only the metadata is rewritten. Data files are not affected. 
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/iceberg_inplace_migration.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/iceberg_inplace_migration.png)
 
 **Code Example:**
 
@@ -701,19 +701,19 @@ Iceberg maintains a history of table snapshots, allowing for time travel and rol
 
 In the Cloudera Control Place select the Data Warehouse tile.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/control_plane_cdw.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/control_plane_cdw.png)
 
 In the Data Warehouse Service locate the **Hive** Virtual Warehouse and click on the Hue button.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/cdw_hue_hive.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/cdw_hue_hive.png)
 
 This will open the Hue IDE for Hive and you're ready to proceed.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/cdw_hive.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/cdw_hive.png)
     
 ## 8. Branching and Merging
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/branching_merging.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/branching_merging.png)
 
 ### Branching in Iceberg
 
@@ -890,7 +890,7 @@ Iceberg uses the **`metadata/`** directory to manage partitioning and versioning
 ### Understanding the Metadata Files
 Iceberg uses several types of metadata files to track table state and manage its partitions. Below are the types of metadata files found in the **`metadata/`** directory.
 
-![](https://raw.githubusercontent.com/richard-vh/iceberg-cdw-hol/refs/heads/main/content/assets/images/iceberg_file_structure.png)
+![](https://raw.githubusercontent.com/richard-vh/cloudera-iceberg-hols/refs/heads/main/content/assets/images/iceberg_file_structure.png)
 
 #### <ins>Metadata JSON Files (*.metadata.json)</ins>
 **Example Files:**
